@@ -2,10 +2,10 @@ import localFont from "next/font/local";
 
 export const dmSans = localFont({
   src: [
-    { path: "./fonts/font-0.ttf", weight: "400", style: "normal" },
-    { path: "./fonts/font-1.ttf", weight: "500", style: "normal" },
-    { path: "./fonts/font-2.ttf", weight: "600", style: "normal" },
-    { path: "./fonts/font-3.ttf", weight: "700", style: "normal" },
+    { path: "./fonts/DM-Sans-Regular.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/DM-Sans-Medium.ttf", weight: "500", style: "normal" },
+    { path: "./fonts/DM-Sans-SemiBold.ttf", weight: "600", style: "normal" },
+    { path: "./fonts/DM-Sans-Bold.ttf", weight: "700", style: "normal" },
   ],
   variable: "--font-dm-sans",
   display: "swap",
@@ -13,11 +13,11 @@ export const dmSans = localFont({
 
 export const manrope = localFont({
   src: [
-    { path: "./fonts/font-4.ttf", weight: "400", style: "normal" },
-    { path: "./fonts/font-5.ttf", weight: "500", style: "normal" },
-    { path: "./fonts/font-6.ttf", weight: "600", style: "normal" },
-    { path: "./fonts/font-7.ttf", weight: "700", style: "normal" },
-    { path: "./fonts/font-8.ttf", weight: "800", style: "normal" },
+    { path: "./fonts/Manrope-Regular.ttf", weight: "400", style: "normal" },
+    { path: "./fonts/Manrope-Medium.ttf", weight: "500", style: "normal" },
+    { path: "./fonts/Manrope-SemiBold.ttf", weight: "600", style: "normal" },
+    { path: "./fonts/Manrope-Bold.ttf", weight: "700", style: "normal" },
+    { path: "./fonts/Manrope-ExtraBold.ttf", weight: "800", style: "normal" },
   ],
   variable: "--font-manrope",
   display: "swap",
